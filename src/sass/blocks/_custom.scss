@@ -1,0 +1,26 @@
+.custom {
+  padding: 80px 0 100px 0;
+  &__wrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 605px);
+    column-gap: 30px;
+  }
+  &__title {
+    max-width: 470px;
+  }
+  &__text {
+    margin-top: 23px;
+    max-width: 517px;
+  }
+  &__btn {
+    margin-top: 16px;
+  }
+  &__img {
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

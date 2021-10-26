@@ -1,0 +1,15 @@
+.network {
+  padding: 70px 0 100px 0;
+  &__title {
+    margin: 0 auto;
+    max-width: 1012px;
+  }
+  &__img {
+    margin: 0 auto;
+    margin-top: 89px;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

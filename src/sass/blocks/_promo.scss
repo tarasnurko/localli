@@ -3,6 +3,8 @@
   &__title {
     margin: 0 auto;
     max-width: 560px;
+    font-size: 64px;
+    line-height: 77px;
     text-align: center;
   }
   &__text {
@@ -49,7 +51,7 @@
     }
   }
   &__img {
-    display: block;
+    margin: 0 auto;
     margin-top: 55px;
     img {
       width: 100%;

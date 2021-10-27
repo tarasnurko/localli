@@ -1,0 +1,156 @@
+.delivery {
+  padding: 70px 0;
+  background-color: #FAFAFA;
+  &__wrapper {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 509px 529px;
+    column-gap: 30px;
+  }
+  &__item {
+    &:first-child {
+      padding-left: 111px;
+    }
+    &:last-child {
+      align-self: center;
+    }
+  }
+  &__order {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+    &-wrapper {
+      display: flex;
+      &:hover {
+        color: #000000;
+      }
+    }
+    &-icon {
+      margin-right: 7px;
+    }
+    &-text {
+      align-self: center;
+      margin-right: 5px;
+      font-size: 16px;
+      line-height: 18px;
+      color: #000000;
+    }
+    &-price {
+      align-self: center;
+      font-size: 18px;
+      line-height: 18px;
+      color: #000000;
+    }
+  }
+  &__nav {
+    margin: 23px 0;
+    display: flex;
+    &-text {
+      align-self: center;
+      font-size: 14px;
+      line-height: 16px;
+      color: #000000;
+      &:last-child {
+        color: #686868;
+      }
+      &:hover {
+        color: #000000;
+      }
+    }
+    &-tick {
+      margin: 0 9px;
+    }
+  }
+  &__contacts {
+    border: 1px solid #E4E4E4;
+    border-radius: 8px;
+    background-color: #ffffff;
+    &-block {
+      padding: 20px 0;
+      margin: 0 18px;
+      &:first-child {
+        border-bottom: 1px solid #E4E4E4;
+      }
+    }
+    &-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+    &-name {
+      align-self: center;
+      font-size: 16px;
+      line-height: 18px;
+      color: #686868;
+    }
+    &-change {
+      align-self: center;
+      font-size: 16px;
+      line-height: 18px;
+      color: #000000;
+      &:hover {
+        color: #000000;
+      }
+    }
+    &-current {
+      margin-top: 13px;
+      align-self: center;
+      font-size: 14px;
+      line-height: 16px;
+      color: #000000;
+    }
+  }
+  &__shipping {
+    margin-top: 30px;
+    position: relative;
+    &-text {
+      font-size: 18px;
+    }
+    &-block {
+      border: 1px solid #E4E4E4;
+      border-radius: 8px;
+      background-color: #ffffff;
+    }
+    &-method {
+      display: flex;
+      justify-content: space-between;
+      padding: 19px 16px; 
+      border-bottom: 1px solid #E4E4E4;
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+    &-wrapper {
+      display: flex;
+      align-self: center;
+    }
+    &-chose {
+      margin-right: 13px;
+    }
+    &-img {
+      position: absolute;
+      left: -110px;
+      bottom: 120px;
+    }
+  }
+  &__btn {
+    display: block;
+    margin-top: 15px;
+    padding: 30px 0 30px;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+  }
+
+
+
+
+  &__title {
+  }
+  &__text {
+    margin-top: 23px;
+    max-width: 477px;
+  }
+}

@@ -1,0 +1,33 @@
+.questions {
+  padding: 50px 0 45px 0;
+  &__title {
+    text-align: center;
+  }
+  &__wrapper {
+    margin-top: 55px;
+  }
+  &__block {
+    margin: 0 auto;
+    padding: 10px 5px 20px 5px;
+    width: 700px;
+    border-bottom: 1px solid #000000;
+    &-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+    }
+    &-name {
+      font-size: 20px;
+      line-height: 30px;
+      color: #000000;
+    }
+    &-tick {
+    }
+    &-desc {
+      display: none;
+      margin-top: 10px;
+    }
+  }
+
+}

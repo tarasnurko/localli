@@ -1,0 +1,28 @@
+.request {
+  padding: 45px 0 90px 0;
+  &__wrapper {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 90px 7px 90px 75px;
+    display: grid;
+    grid-template-columns: 579px 549px;
+    column-gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background: #FBFBFB;
+  }
+  &__block {
+    padding: 12px 0;
+  }
+  &__subtitle {
+    text-align: left;
+  }
+  &__text {
+    margin-top: 20px;
+    max-width: 517px;
+  }
+  &__btn {
+    margin-top: 20px;
+  }
+}

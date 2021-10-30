@@ -13,6 +13,10 @@
   margin: 0 auto;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 @import 'blocks/btn';
 @import 'blocks/text';
 @import 'blocks/title';
@@ -28,6 +32,8 @@
 @import 'blocks/questions';
 @import 'blocks/request';
 @import 'blocks/footer';
+@import 'blocks/menu';
+@import 'blocks/media';
 
 
 

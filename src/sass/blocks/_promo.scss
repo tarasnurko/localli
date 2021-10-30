@@ -49,10 +49,14 @@
         width: 100%;
       }
     }
+    &-text {
+      align-self: center;
+    }
   }
   &__img {
     margin: 0 auto;
     margin-top: 55px;
+    max-width: 1240px;
     img {
       width: 100%;
       object-fit: cover;

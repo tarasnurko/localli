@@ -10,10 +10,10 @@
       width: 100%;
     }
   }
-  .menu {
+  &__nav {
     display: flex;
     align-items: center;
-    &__item {
+    &-item {
       margin-right: 30px;
       font-weight: 400;
       font-size: 15px;

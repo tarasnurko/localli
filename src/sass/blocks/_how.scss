@@ -22,6 +22,9 @@
     &-img {
       display: flex;
       justify-content: center;
+      img {
+        height: 210px;
+      }
     }
     &-title {
       margin-top: 40px;

@@ -2,6 +2,19 @@
   .container {
     max-width: 960px;
   }
+  .how {
+    &__steps {
+      &-wrapper {
+        grid-template-columns: repeat(3, 300px);
+      }
+      &-img {
+        img {
+          // height: unset;
+          max-width: 300px;
+        }
+      }
+    }
+  }
 }
 
 
@@ -20,6 +33,14 @@
   .promo {
     &__text {
       max-width: 600px;
+    }
+  }
+  .how {
+    &__steps {
+      &-wrapper {
+        grid-template-columns: repeat(2, 300px);
+        row-gap: 60px;
+      }
     }
   }
 }
@@ -46,6 +67,28 @@
       }
       &-item {
         margin-right: 0;
+      }
+    }
+  }
+  .network {
+    &__img {
+      margin-top: 50px;
+    }
+  }
+  .how {
+    &__steps {
+      &-wrapper {
+        grid-template-columns: 350px;
+        row-gap: 60px;
+      }
+      &-title {
+        margin-top: 20px;
+      }
+      &-img {
+        img {
+          width: 350px;
+          height: unset;
+        }
       }
     }
   }
@@ -97,6 +140,24 @@
     }
     &__img {
       margin-top: 40px;
+    }
+  }
+  .how {
+    &__steps {
+      &-wrapper {
+        margin-top: 60px;
+        grid-template-columns: 300px;
+        row-gap: 60px;
+      }
+      &-title {
+        margin-top: 20px;
+      }
+      &-img {
+        img {
+          width: 300px;
+          height: unset;
+        }
+      }
     }
   }
 }

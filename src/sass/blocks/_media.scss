@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   .container {
     max-width: 960px;
   }
@@ -12,6 +12,21 @@
           // height: unset;
           max-width: 300px;
         }
+      }
+    }
+  }
+  .custom {
+    &__wrapper {
+      grid-template-columns: repeat(2,465px);
+    }
+  }
+  .delivery {
+    &__wrapper {
+      grid-template-columns: 500px 320px;
+    }
+    &__item {
+      &:first-child {
+        padding-left: 100px;
       }
     }
   }
@@ -41,6 +56,57 @@
         grid-template-columns: repeat(2, 300px);
         row-gap: 60px;
       }
+    }
+  }
+  .custom {
+    &__wrapper {
+      grid-template-columns: 600px;
+      grid-template-rows: 1fr 1fr;
+      row-gap: 20px;
+    }
+    &__title {
+      margin: 0 auto;
+      text-align: center;
+    }
+    &__text {
+      margin: 23px auto 0 auto;
+    }
+    &__btn {
+      margin: 16px auto 0 auto;
+      &-wrapper {
+        text-align: center;
+      }
+    }
+  }
+  .delivery {
+    padding-top: 50px;
+    &__title {
+      max-width: 470px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    &__text {
+      max-width: 560px;
+      margin: 23px auto 0 auto;
+    }
+    &__wrapper {
+      grid-template-columns: 720px;
+      grid-template-rows: 300px 650px;
+      row-gap: 30px;
+    }
+    &__item {
+      &:first-child {
+        padding: 0 120px;
+        grid-row: 2;
+      }
+      &:last-child {
+        grid-row: 1;
+      }
+    }
+  }
+  .questions {
+    &__block {
+      max-width: 620px;
     }
   }
 }
@@ -90,6 +156,39 @@
           height: unset;
         }
       }
+    }
+  }
+  .custom {
+    &__wrapper {
+      grid-template-columns: 540px;
+    }
+    &__text {
+      max-width: 380px;
+    }
+  }
+  .delivery {
+    &__text {
+      max-width: 390px;
+    }
+    &__wrapper {
+      grid-template-columns: 540px;
+      grid-template-rows: 200px 650px;
+      row-gap: 60px;
+    }
+    &__item {
+      &:first-child {
+        padding: 0 60px;
+      }
+    }
+    &__shipping {
+      &-img {
+        display: none;
+      }
+    }
+  }
+  .questions {
+    &__block {
+      max-width: 520px;
     }
   }
 }
@@ -158,6 +257,40 @@
           height: unset;
         }
       }
+    }
+  }
+  .custom {
+    padding-bottom: 60px;
+    &__wrapper {
+      grid-template-columns: 340px;
+    }
+    &__text {
+      max-width: 300px;
+    }
+  }
+  .delivery {
+    &__text {
+      max-width: 390px;
+    }
+    &__wrapper {
+      grid-template-columns: 320px;
+      grid-template-rows: 200px 680px;
+      row-gap: 60px;
+    }
+    &__item {
+      &:first-child {
+        padding: 0;
+      }
+    }
+  }
+  .questions {
+    &__title {
+      max-width: 300px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    &__block {
+      max-width: 320px;
     }
   }
 }

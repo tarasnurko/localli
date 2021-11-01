@@ -16,6 +16,11 @@
       justify-content: space-between;
       align-items: center;
       cursor: pointer;
+      &_active {
+        .questions__block-tick {
+          transform: rotate(180deg);
+        }
+      }
     }
     &-name {
       font-size: 20px;
@@ -23,10 +28,14 @@
       color: #000000;
     }
     &-tick {
+      transition: all 0.6s;
     }
     &-desc {
-      display: none;
+      transition: all 0.6s;
+      // display: none;
+      max-height: 0;
       margin-top: 10px;
+      overflow: hidden;
     }
   }
 

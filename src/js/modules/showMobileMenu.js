@@ -1,4 +1,4 @@
-export default function showMenu(btnSelector, btnActiveClass, menuBgSelector, menuBgActiveClass, menuWrapperSelector, menuWrapperActiveClass, overflowClass) {
+export default function showModileMenu(btnSelector, btnActiveClass, menuBgSelector, menuBgActiveClass, menuWrapperSelector, menuWrapperActiveClass, overflowClass) {
   let btn = document.querySelector(btnSelector),
       menuBg = document.querySelector(menuBgSelector),
       menuWrapper = document.querySelector(menuWrapperSelector);
